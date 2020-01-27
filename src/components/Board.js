@@ -11,6 +11,7 @@ export default class Board extends React.Component {
       winner: ''
     }
   }
+  // function use to check which player is winner.
   onClickHandle = (index) => {
     const { players, winner } = this.state;
     if (players[index] !== '' || winner) {
